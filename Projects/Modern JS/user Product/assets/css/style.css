@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(154, 198, 183);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.form{
+    width: 600px;
+    margin: 200px auto ;
+    border: 1px solid gray;
+    background: #1e283e; 
+}
+hr{
+    color: rgb(255, 2, 2);
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;    
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(95, 181, 221);
+}
+.list{
+    margin-left: 30px;
+}
+a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  

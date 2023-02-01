@@ -1,0 +1,186 @@
+.brand {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.center{
+    align-items: center; 
+}
+.Purchase{
+    color: aqua;
+}
+.navbar-nav{
+    padding-left: 1100px;
+    /* justify-content: flex-end; */
+    font-size:larger;
+    font-weight: 700;
+    padding-right:100px;
+}
+
+.navbar-brand{
+    padding-top: 20px;
+}
+.tree{
+    padding-bottom: 20px;
+}
+.home:hover{
+    /* padding-top: 2px;
+    color: aqua; */
+    padding-top: 30px;
+    border-color: aqua;   
+}
+.nav{
+    background-color: rgb(27, 80, 126);
+    height: 50px;
+}
+.bg1{
+    background-image: url('file:///C:/Users/Netaxis/Thoufiq/Assesment-1/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yoga{
+    font-size:100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:900;
+}
+.club{
+    padding-left:5px;
+    font-size:100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(157, 157, 157);
+}
+.Private{
+    padding-left: 260px;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight:500;
+}
+.searchbox{
+    float: right;
+    padding-top:50px;
+    border: none;
+    margin-top: 8px;  
+}
+.bg2{
+    background-color: darkcyan;
+    padding: 20px;
+    font-weight:;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+/* .t1{
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: black;
+} */
+.img3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 14px;
+}
+.cbody1{
+    background-color:darkcyan ;
+    /* border-bottom: 200px; */
+}
+.c1{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+.c2{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+.c3{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+.card p{
+    color: rgb(222, 222, 222);
+    padding-left: 160px;
+    font-size: 15px;
+}
+.card h3{
+    padding-left: 80px;
+    color: #ffff;
+}
+.t1{
+   padding-left: 20px !important;
+}
+.bg4{
+    background-color: rgb(238, 238, 238);
+}
+.ratecard{
+    background-color:darkcyan ;
+}
+.ci{
+    color: green;
+    padding-right: 20px;
+}
+.list{
+    display: inline-block;
+    text-align: left;
+}
+.hosto3{
+    font-weight: 800;
+    font-size: 60px;
+}
+.box4{
+    border: solid black 2px;
+    
+}
+.c1box{
+    font-size: 25px;
+    font-weight: bold;
+    ont-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cbody2 img{
+    height: 200px; 
+    width: 200px;
+    background-color: color: rgb(222, 222, 222); 
+}
+.cbody2 button{
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.box5{
+    border: solid rgb(201, 189, 189) 2px;
+    margin: 20px;
+}
+.box5 img{
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 200px; 
+    width: 200px;
+    opacity: 0.5;
+}
+.box5 img:hover{
+    opacity: 1;
+}
+.box6 i {
+    color: aqua;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.box6 li{
+    padding-top: 10px;
+    
+}
+.box6 button{
+    border: 1px solid green;
+    border: 1px;
+    padding: 1px;
+    text-align: right;
+}.box7{
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.box7 i{
+    color: aqua;
+    padding: 10px;
+    /* padding-left: 30px */
+    align-items: flex-end;
+}

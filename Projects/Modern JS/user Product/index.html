@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="form  text-center">
+      <p class="text-white mt-3" style="font-weight: bolder;font-size: 50px;border-bottom: 2px solid gray;">USER LIST
+      </p>
+      <label class="text-danger mt-3" style="font-weight:bolder; font-size: 30px; border-radius: 3px solid gray;">Enter
+        Username </label><br>
+      <input type="text" style="width:50%;padding-left: 10px;font-size: 18px;" placeholder="Username" id="username"
+        required />
+      <button id="show" type="button" onclick="getInfo()" class="m-3 mb-5 submit"
+        style="width:50%;border-radius: 5px solid dark;background-color: cyan;font-weight: bold;">LOGIN</button>
+      <h5 class="text-white"><b>Find Users:</b> <a onclick="username()" class="btn btn-sm btn-info clic">click Here</a>
+      </h5>
+      <h5 id="user" class="text-white" style="font-size: 18px;">[Giri, Hema, Mokesh, Elwin, Bharath, Gunal]</h5>
+    </form>
+  </div>
+
+  <div class="row list">
+    <div class="col-lg-6 col-md-6 col-sm-12 userlist" style="border: 1px solid black;">
+      <div class="row text-center pt-3">
+        <div class="col-lg-2 text-white"><button class="btn btn-danger"><a href="./index.html">Back</a></button></div>
+        <h1 class="col-lg-8" style="text-align: center;font-weight: bold;">User Name</h1>
+        <div class="col-lg-2"><button class="btn btn-success">UserList</button></div>
+        <hr style="color:black">
+      </div>
+      <div>
+        <label for="">
+          <h1>Filter :</h1>
+        </label>
+        <input id="filter" type="text" name="" id="">
+      </div>
+      <div class="row" id="display" style="margin-left: 10px;">
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12 userlist" style="border: 1px solid black;">
+      <h1 class="col-lg-12 col-md-12 col-sm-12" style="text-align: center;font-weight: bold;">
+        <center>Cart</center>
+      </h1>
+    </div>
+  </div>
+
+
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assets/js/script_file.js"></script>
+  <script type="text/javascript" src="./assets/js/pluginFile.js"></script>
+</body>
+
+</html>
